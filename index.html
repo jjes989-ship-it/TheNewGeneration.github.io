@@ -1,35 +1,299 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
+
 <head>
-  <title>Elite Cuts Barbershop</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial;
-      background: #111;
-      color: white;
-      text-align: center;
-    }
-    .hero {
-      padding: 100px 20px;
-    }
-    .btn {
-      padding: 12px 20px;
-      background: white;
-      color: black;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-    }
-  </style>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>The New Generation Barbershop</title>
+
+<style>
+
+body {
+
+  margin: 0;
+
+  font-family: Arial, sans-serif;
+
+  background: #0b0f1a;
+
+  color: white;
+
+}
+
+/* HEADER */
+
+header {
+
+  text-align: center;
+
+  padding: 60px 20px;
+
+  background: linear-gradient(90deg, #0d1b2a, #1b263b);
+
+}
+
+header h1 {
+
+  font-size: 2.5rem;
+
+  color: #4cc9f0;
+
+}
+
+header p {
+
+  color: #ccc;
+
+}
+
+/* SECTIONS */
+
+section {
+
+  padding: 40px 20px;
+
+  text-align: center;
+
+}
+
+/* GALLERY */
+
+.gallery {
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+
+  gap: 10px;
+
+}
+
+.gallery img {
+
+  width: 100%;
+
+  border-radius: 10px;
+
+}
+
+/* REVIEWS */
+
+.review-container {
+
+  display: flex;
+
+  overflow-x: auto;
+
+  gap: 20px;
+
+  padding: 10px;
+
+}
+
+.review {
+
+  min-width: 280px;
+
+  background: #1b263b;
+
+  border-left: 4px solid #e63946;
+
+  padding: 20px;
+
+  border-radius: 10px;
+
+  text-align: left;
+
+}
+
+.review p {
+
+  margin: 0 0 10px;
+
+}
+
+.review a {
+
+  color: #4cc9f0;
+
+  text-decoration: none;
+
+}
+
+/* INFO */
+
+.info {
+
+  background: #111827;
+
+  border-radius: 10px;
+
+  padding: 20px;
+
+  margin-top: 20px;
+
+}
+
+/* MAP */
+
+iframe {
+
+  border-radius: 10px;
+
+}
+
+/* FOOTER */
+
+footer {
+
+  text-align: center;
+
+  padding: 20px;
+
+  color: #aaa;
+
+}
+
+</style>
+
 </head>
+
 <body>
 
-<div class="hero">
-  <h1>Elite Cuts Barbershop</h1>
-  <p>Clean cuts. Professional service.</p>
-  <a href="#" class="btn">Book Now</a>
-</div>
+<header>
+
+  <h1>The New Generation Barbershop</h1>
+
+  <p>4.7 ⭐ (72 reviews)</p>
+
+</header>
+
+<section>
+
+  <h2>Our Work</h2>
+
+  <div class="gallery">
+
+    <!-- REPLACE WITH YOUR REAL IMAGES -->
+
+    <img src="cut1.jpg">
+
+    <img src="cut2.jpg">
+
+    <img src="cut3.jpg">
+
+  </div>
+
+</section>
+
+<section>
+
+  <h2>Client Reviews</h2>
+
+  <div class="review-container">
+
+    <div class="review">
+
+      <p>See full review from a customer</p>
+
+      <a href="https://maps.app.goo.gl/p1Gg9fmAknj9A9DD9?g_st=ic" target="_blank">
+
+        View on Google
+
+      </a>
+
+    </div>
+
+    <div class="review">
+
+      <p>Real feedback from clients</p>
+
+      <a href="https://share.google/TsPcwXNqeM7SoGq32" target="_blank">
+
+        View Review
+
+      </a>
+
+    </div>
+
+    <div class="review">
+
+      <p>Another satisfied customer</p>
+
+      <a href="https://share.google/ur3urr0ibBCFehxTE" target="_blank">
+
+        View Review
+
+      </a>
+
+    </div>
+
+    <div class="review">
+
+      <p>Check out this review</p>
+
+      <a href="https://share.google/JBFc5TPRt7jm2BNiD" target="_blank">
+
+        View Review
+
+      </a>
+
+    </div>
+
+    <div class="review">
+
+      <p>More customer experiences</p>
+
+      <a href="https://share.google/pP9RenFbiIyp4oSmj" target="_blank">
+
+        View Review
+
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section>
+
+  <h2>Visit Us</h2>
+
+  <div class="info">
+
+    <p>📍 5 W Sunrise Hwy #1a, Freeport, NY 11520</p>
+
+    <p>📞 (516) 442-3663</p>
+
+    <p>Walk-ins welcome</p>
+
+  </div>
+
+  <br>
+
+  <iframe 
+
+    src="https://www.google.com/maps?q=5+W+Sunrise+Hwy+Freeport+NY&output=embed"
+
+    width="100%" 
+
+    height="300">
+
+  </iframe>
+
+</section>
+
+<footer>
+
+  <p>The New Generation Barbershop © 2026</p>
+
+</footer>
 
 </body>
+
 </html>
