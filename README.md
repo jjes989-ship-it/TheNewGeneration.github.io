@@ -1,1 +1,1 @@
-# TheNewGeneration.github.io
+# thenewgeneration.github.io
